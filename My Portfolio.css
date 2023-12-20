@@ -106,3 +106,7 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+project_img{
+    height: 20px;
+    border-radius: 10px;
+}
