@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@500&family=Lobster&family=Prompt:ital@1&family=Quicksand&family=Raleway:wght@500;600&family=Tilt+Neon&display=swap');
+
+body {
+    padding: 0;
+    margin: 0px;
+    background-color: #2b3035 !important;
+}
+
+
+.hackerrank{
+    height: 270px;
+    width: 100%;
+}
+.hackerrank_heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hackerrank_heading img {
+    height: 60px;
+}
+
+.badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+}
+.badges img{
+    border:2px solid transparent ;
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+    
+}
+.badges img:hover{
+    filter: drop-shadow(10px 20px 20px rgba(0,0,0,0.6));
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.project_heading {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.project {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+    background-color: #495057;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    transition: border-color 0.3s ease;
+    border: 3px solid transparent;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.project a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project:hover {
+    border-color: #fff;
+}
+
+.project p {
+    width: 370px;
+}
+
+.project img {
+    display: flex;
+    justify-self: center;
+    width: 386px;
+    border-radius: 10px;
+}
