@@ -5,11 +5,12 @@
 }
 
 .nav-item a:hover {
-    font-size: 1.25rem;
+    font-size: 1.25em;
     color: #adadd9 !important;
 }
 
-.header {
+
+.universal   {
     width: 100%;
     margin-left: 0rem;
     padding: 0rem;
@@ -36,12 +37,13 @@
 
 .profile {
     margin-left: 1.25rem;
-    width: 6.25rem;
+    width: 13%; /* or adjust as needed */
     height: auto;
-    border-radius: 6.25rem;
+    border-radius: 50%;
     border-style: solid;
-    box-shadow: .25rem .25rem 5rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0.25rem 0.25rem 5rem rgba(0, 0, 0, 0.5);
 }
+
 
 .nav-profile {
     width: 100%;
@@ -109,10 +111,8 @@
 }
 
 .learnmore h2 {
-    margin-right: 1.25rem;
+    margin-right: 2rem; /* or adjust as needed */
 }
 
 
 /* *******************Adding Responsiveness********************* */
-
-@media only screen and (max-width: 500px) {}

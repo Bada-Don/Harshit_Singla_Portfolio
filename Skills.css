@@ -5,25 +5,27 @@
     text-align: center;
     justify-content: center;
 }
-#skills h1{
-    margin-top: 55px;
+#skills h1 {
+    margin-top: 3.5rem; /* Adjust as needed for spacing */
     color: #adadd9;
-    font-size: 55px;    
+    font-size: 2.5rem;
 }
+
 #skills p {
     margin-right: 100px;
     margin-left: 100px;
     font-size: 27px;
 }
 .skill {
-    margin-bottom: 6.25rem;
-    margin-right: 6.25rem;
-    margin-left: 6.25rem;
-    width:auto;
+    margin-bottom: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .skill div{
     box-shadow: .625rem .625rem .625rem #adadd9;    margin-top: 1.875rem;
     margin-bottom: 3.125rem;
@@ -37,11 +39,12 @@
 .skill div:hover {
     border-color: #adadd9;
 }
-.skill img{
+.skill img {
     margin-top: 1.25rem;
     max-height: 55%;
     max-width: 70%;
 }
+
 .skill h1{
 
     font-size: 1.875rem !important;
