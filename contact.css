@@ -12,53 +12,77 @@
     justify-content: center;
     align-items: center;
 }
-#contactform{
+
+#contactimg {
+    max-width: 45%;
+}
+
+#contactform {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 #contactform input {
-    width: 25rem;
-    height: 4rem;
+    width: 20rem;
+    height: 3rem;
     padding-left: .6rem;
     padding-right: .6rem;
 
-    font-size: 1.75rem;
+    font-size: 1rem;
     color: white;
 
     background-color: #000000;
     border-radius: 1rem;
     border: 0.1875rem solid transparent;
     filter: drop-shadow(.2rem .2rem .2rem rgba(173, 173, 217, 0.6));
+    transition: all .3s ease-in-out;
 }
 
 #contactform textarea {
-    width: 25rem;
-    height: 8rem;
+    width: 20rem;
+    height: 6rem;
     padding-left: .6rem;
     padding-right: .6rem;
 
-    font-size: 1.75rem;
+    font-size: 1rem;
     color: white;
 
     background-color: #000000;
     border-radius: 1rem;
     border: 0.1875rem solid transparent;
     filter: drop-shadow(.2rem .2rem .2rem rgba(173, 173, 217, 0.6));
+    transition: all .3s ease-in-out;
+}
+
+#contactform input:focus {
+    width: 26rem;
+    height: 4rem;font-size: 1.75rem;
+}
+#contactform textarea:focus {
+    width: 26rem;
+    height: 8rem;font-size: 1.75rem;
 }
 
 /* Button Style */
 #contactform button {
     display: inline-block;
     width: 15rem;
-    height: 4rem;
-    color: rgb(0, 0, 0);
-    background-color: #adadd9;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: #773bb7;
     border: none;
     border-radius: 1rem;
     box-shadow: 0px 8px 15px rgba(41, 41, 41, 0);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    transition: all .3s ease-in-out;
+}
+
+#contactform button:hover {
+    background-color: #6ec6ec;
+    color: rgb(0, 0, 0);
+    width: 25rem;height: 4rem;
 }
