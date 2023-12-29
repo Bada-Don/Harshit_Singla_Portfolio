@@ -1,0 +1,114 @@
+/* responsive.css */
+
+/* Global Styles for Mobile Screens */
+@media only screen and (max-width: 500px) {
+
+
+    .profil h1 {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .profil h3 {
+        font-size: 1rem;
+    }
+
+    .profil img {
+        width: 4.5rem;
+    }
+
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        margin-left: 0;
+        width: 90%;
+    }
+
+    #codeimg {
+        width: 90%;
+    }
+
+    .atext {
+        width: 100%;
+        font-size: 1.75rem;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #skills h1 {
+        margin: 0;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #skills p {
+        margin: 0;
+        padding: 1.2rem;
+
+        text-align: justify;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .skill {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: .8rem;
+        width: 100%;
+    }
+
+    .skill div {
+        margin: 0;
+        margin-bottom: 3rem;
+
+        max-width: 45%;
+    }
+
+    .skill h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .hackerrank {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hackerrank_heading {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .hackerrank_heading img {
+        width: 4rem;
+        height: auto;
+    }
+
+    .hackerrank_heading h1 {
+        font-size: 1.8rem;
+    }
+
+    .badges {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        padding: 1.5rem;
+        width: 100%;
+    }
+    .project_heading {
+        text-align: center;
+    }
+
+}
