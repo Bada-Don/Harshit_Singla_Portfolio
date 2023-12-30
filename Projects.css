@@ -41,16 +41,9 @@ body {
 
 }
 
-.projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-}
-
-.project_heading {
-    margin-top: 9.375rem;
-    margin-bottom: 6rem;
+.project_heading{
+    margin-top: 10rem;
+    margin-bottom: 2rem;
 }
 
 .project {
@@ -64,37 +57,21 @@ body {
     padding-top: 1%;
     border-radius: 1rem;
     width: 80%;
-    /* or adjust as needed */
-    height: auto;
-    transition: border-color 0.3s ease;
     border: 3px solid transparent;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-bottom: 2rem;
 }
-
-
+.project p {
+    margin-bottom: 4rem;
+}
 .project a {
     color: inherit;
     text-decoration: none;
 }
-
-.project:hover {
-    border-color: #adadd9;
-}
-
-.project p {
-    width: 370px;
-}
-
-.project img {
+.project_elements{
     display: flex;
-    justify-self: center;
-    width: 100%;
-    /* or adjust as needed */
-    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.project img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
+.project_elements img{
+    width: 35rem;
 }
