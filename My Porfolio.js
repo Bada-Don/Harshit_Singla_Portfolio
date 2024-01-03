@@ -25,3 +25,13 @@ var typed = new Typed('#element', {
     // Attach the function to the window resize event to update the class dynamically
     window.addEventListener('resize', updateCarouselWidth);
 
+     // Add smooth scrolling to all links with anchors
+     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth',
+            });
+        });
+    });

@@ -40,19 +40,22 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projects</a>
+                                <a class="nav-link" href="#skills">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#achievements">Achievements</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#projects">Projects</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact me</a>
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact me</a>
                             </li>
 
                         </ul>
@@ -65,7 +68,7 @@
 
         <div class="am">
             <!-- Home-->
-            <div class="home">
+            <div id="home" class="home">
                 <p class="atext">"Hi, I'm <span class="violet">Harshit Singla,</span> a budding technophile with a
                     passion for <span id="element"></span>
                 </p>
@@ -74,13 +77,24 @@
                 <img id="codeimg" src="https://blueoceantech.in/assets/front/img/16674568581751219875.png"
                     alt="Developer">
             </div>
-            <div class="learnmore">
-                <h2>Learn More</h2>
-                <i class="fa-solid fa-arrow-down fa-fade fa-2xl"></i>
-            </div>
+            <a class="nav-link" href="#skills">
+                <div class="learnmore">
+                    <h2>Learn More</h2>
+                    <i class="fa-solid fa-arrow-down fa-fade fa-2xl"></i>
+                </div>
+            </a>
         </div>
         <div id="skills">
+            <h1>About Me</h1><br>
+            <p>Hey there! I'm Harshit Singla, a first-year B.Tech CSE student at CGC Landran. Passionate about
+                coding, gaming, and designing, I find joy in turning lines of code into functional programs and
+                immersing myself in the virtual realms of gaming. When I'm not lost in the world of technology,
+                you'll often find me appreciating good music. Currently, I'm on a journey to develop my own portfolio
+                website, showcasing my skills and experiences. Exciting times ahead! Born on June 28, 2006, I'm a
+                tech enthusiast ready to explore the vast possibilities of the digital world.</p>
+            <br>
             <h1>What I am good at:</h1>
+            <br>
             <p>Embracing the elegant dance of code, conquering virtual realms with a gamer's passion, crafting designs
                 that speak volumes, and finding harmony in the symphony of music.</p>
             <div class="skill">
@@ -102,21 +116,26 @@
                 </div>
             </div>
         </div>
-        <div class="hackerrank">
-            <div class="hackerrank_heading">
-                <img src="./800px-HackerRank_Icon-1000px.png" alt="" srcset="">
-                <h1> HackerRank Badges</h1>
-            </div>
-            <div class="badges">
-                <img class="badges" src="./cpp_level_2_stars_3_linkedin-fe11a8b029.png" alt="" srcset="">
-                <img class="badges" src="./Screenshot 2023-12-21 102233.png" alt="" srcset="">
-                <img class="badges" src="./Screenshot 2023-12-21 102242.png" alt="" srcset="">
+        <h1 id="achievements" class="project_heading">My Achievements Section</h1>
+        <div class="achievements">
+            <img id="Achievements_Illustration" src="/Achievements illustration.webp" alt="" srcset="">
+            <div class="hackerrank">
+                <div class="hackerrank_heading">
+                    <img src="./800px-HackerRank_Icon-1000px.png" alt="" srcset="">
+                    <h1> HackerRank Badges</h1>
+                </div>
+                <div class="badges">
+                    <img class="badges" src="./cpp_level_2_stars_3_linkedin-fe11a8b029.png" alt="" srcset="">
+                    <img class="badges" src="./Screenshot 2023-12-21 102233.png" alt="" srcset="">
+                    <img class="badges" src="./Screenshot 2023-12-21 102242.png" alt="" srcset="">
+
+                </div>
             </div>
         </div>
 
 
         <!-- Projects section -->
-        <h1 class="project_heading">Here is a brief about my projects</h1>
+        <h1 id="projects" class="project_heading">Here is a brief about my projects</h1>
         <div class="project_elements">
 
             <img src="./Project illustration.png" alt="" srcset="">
@@ -189,7 +208,7 @@
         <!-- About Me Section-->
 
         <!-- Contact Me -->
-        <h1 class="project_heading">Ways To Contact Me</h1>
+        <h1 id="contact" class="project_heading">Ways To Contact Me</h1>
         <div class="allcontacts">
             <img id="contactimg" src="./Contact Illustration.png" alt="Contact Illustration">
             <form action="" id="contactform">

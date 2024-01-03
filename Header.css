@@ -1,5 +1,5 @@
 .nav-item a {
-    transition: 0.5s ease;
+    transition: 0.2s ease;
     font-family: 'Raleway';
     color: white !important;
 }
@@ -108,6 +108,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    color: white; /* Replace with the color you want */
+    text-decoration: none;
 }
 
 .learnmore h2 {
