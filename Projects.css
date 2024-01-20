@@ -12,23 +12,14 @@ body {
 
     width: 90%;
 }
-#Achievements_Illustration{
-    width: 45rem;
+.achievements img{
+    width: 25%;
+    height: auto;
 }
+
 .hackerrank {
     height: 16.875rem;
     width: 100%;
-}
-
-.hackerrank_heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 6.75rem;
-}
-
-.hackerrank_heading img {
-    height: 3.75rem;
 }
 
 .badges {
@@ -41,17 +32,18 @@ body {
 .badges img {
     border: 0.125rem solid transparent;
     filter: drop-shadow(0.625rem 0.625rem 0.625rem rgba(0, 0, 0, 0.6));
+    transition: ease-in-out 0.3s;
 
 }
 
 .badges img:hover {
-    filter: drop-shadow(0.625rem 1.05rem 1.05rem rgba(173, 173, 217, 0.6));
+    scale: 1.1;
 
 }
 
 .project_heading{
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 
 .project {
