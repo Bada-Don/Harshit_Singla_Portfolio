@@ -1,6 +1,6 @@
 var typed = new Typed('#element', {
     strings: ['coding."', 'web development."', 'designing."', 'gaming."','music listening."'],
-    typeSpeed: 50,
+    typeSpeed: 120,
   });
 
     // Function to update the class based on screen size
@@ -35,3 +35,12 @@ var typed = new Typed('#element', {
             });
         });
     });
+// Toggle Popover in Tech Stack
+// Enable Bootstrap Popovers
+// script.js
+
+$(document).ready(function () {
+    // Enable Bootstrap Popovers
+    $('[data-toggle="popover"]').popover();
+  });
+   

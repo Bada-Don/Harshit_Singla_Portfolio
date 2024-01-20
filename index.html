@@ -20,7 +20,7 @@
 
 <body>
     <!-- Header -->
-    <div class="universal">
+    <div class="universal" id="home">
         <div class="nav-profile">
 
             <div class="profil">
@@ -68,7 +68,7 @@
 
         <div class="am">
             <!-- Home-->
-            <div id="home" class="home">
+            <div class="home">
                 <p class="atext">"Hi, I'm <span class="violet">Harshit Singla,</span> a budding technophile with a
                     passion for <span id="element"></span>
                 </p>
@@ -98,13 +98,27 @@
             <h2> This is my technology stack</h2>
             <div class="tech-stack">
                 <div class="tech-stack-img">
-                    <img src="./Icons/html-5.png" alt="HTML Logo">
-                    <img src="./Icons/css-3.png" alt="CSS Logo">
-                    <img src="./Icons/react.png" alt="React Logo">
-                    <img src="./Icons/js.png" alt="JS Logo">
-                    <img src="./Icons/c-.png" alt="C++ Logo">
-                    <img src="./Icons/github.png" alt="GitHub Logo">
-                    <img src="./Icons/bootstrap.png" alt="Bootstrap Logo">
+                    <img data-toggle="popover" title="HTML"
+                        data-content="Hypertext Markup Language for creating web content. Experienced in structuring web pages semantically."
+                        data-placement="bottom" src="./Icons/html-5.png" alt="HTML Logo">
+                    <img data-toggle="popover" title="CSS"
+                        data-content="Cascading Style Sheets for web styling. Proficient in creating responsive and visually appealing designs. Familiar with flexbox and grid layout."
+                        data-placement="bottom" src="./Icons/css-3.png" alt="CSS Logo">
+                    <img data-toggle="popover" title="React"
+                        data-content="JavaScript library for building modern, reusable UI components. Proficient in state management, component lifecycle, and routing."
+                        data-placement="bottom" src="./Icons/react.png" alt="React Logo">
+                    <img data-toggle="popover" title="JavaScript"
+                        data-content="Versatile scripting language for web development. Skilled in DOM manipulation, asynchronous programming, and building interactive user interfaces."
+                        data-placement="bottom" src="./Icons/js.png" alt="JS Logo">
+                    <img data-toggle="popover" title="C++"
+                        data-content="Powerful and versatile programming language used for system/software development. Familiar with data structures, algorithms, and object-oriented concepts."
+                        data-placement="bottom" src="./Icons/c-.png" alt="C++ Logo">
+                    <img data-toggle="popover" title="GitHub"
+                        data-content="Leveraging GitHub for version control. Showcasing coding projects, collaboration, and contributions."
+                        data-placement="bottom" src="./Icons/github.png" alt="GitHub Logo">
+                    <img data-toggle="popover" title="Bootstrap"
+                        data-content="Front-end framework for responsive and mobile-first web development. Skilled in utilizing Bootstrap components and grid system."
+                        data-placement="bottom" src="./Icons/bootstrap.png" alt="Bootstrap Logo">
                 </div>
                 <br>
                 <div> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a>
@@ -220,6 +234,7 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
+                    <br id="contact">
             </div>
         </div>
 
@@ -227,7 +242,7 @@
         <!-- About Me Section-->
 
         <!-- Contact Me -->
-        <h1 id="contact" class="project_heading">Ways To Contact Me</h1>
+        <h1 class="project_heading">Ways To Contact Me</h1>
         <div class="allcontacts">
             <img id="contactimg" src="./Contact Illustration.png" alt="Contact Illustration">
             <form action="" id="contactform">
@@ -257,18 +272,16 @@
     </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://kit.fontawesome.com/6db0ce52a5.js" crossorigin="anonymous"></script>
-    <script src="./My Porfolio.js"></script>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <!-- Include jQuery, Popper.js, and Bootstrap JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Include your script.js file -->
+    <script src="My Porfolio.js"></script>
+
+
 </body>
 
 </html>
