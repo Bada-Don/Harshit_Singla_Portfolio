@@ -49,3 +49,16 @@
 
     font-size: 1.875rem !important;
 }
+.tech-stack-img {
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tech-stack-img img{
+    height: 8rem;
+    justify-content: space-between;
+}

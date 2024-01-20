@@ -116,5 +116,10 @@
     margin-right: 2rem; /* or adjust as needed */
 }
 
-
-/* *******************Adding Responsiveness********************* */
+.Line-break{
+    height: 1px;
+    background-color: #94979d;
+    opacity: .4;
+    width: 75%;
+    
+}
