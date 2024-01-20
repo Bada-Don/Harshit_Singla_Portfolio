@@ -2,7 +2,16 @@ var typed = new Typed('#element', {
     strings: ['coding."', 'web development."', 'designing."', 'gaming."','music listening."'],
     typeSpeed: 120,
   });
-
+  var typed = new Typed('#footer', {
+    strings: ['&copy; Made with ❤️ by <span class="violet">Harshit Singla</span>'],
+    typeSpeed: 80,
+    backDelay: 2000, // Adjust this value to control the delay before backspacing
+    startDelay: 500, // Adjust this value to control the delay before starting the next loop
+    smartBackspace: true,
+    loop: true,
+  });
+  
+  
     // Function to update the class based on screen size
     function updateCarouselWidth() {
         var carousel = document.getElementById('carouselExampleIndicators');

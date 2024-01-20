@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+    font-family: Prompt;
+  }
+  
+  .footer-text {
+    font-size: 2.5rem;
+    margin: 0; /* Remove default margin */
+  }
