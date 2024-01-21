@@ -95,10 +95,11 @@
         display: none;
     }
     .project_elements{
-        width: 170%;
+        width: 90%;
     }
     .project{
         margin-top: 0;
+        box-shadow: .625rem .625rem 1.875rem #adadd9;
     }
     .tech-stack-img img{
         width: 6rem;
