@@ -9,12 +9,17 @@ body {
 .achievements{
     display: flex;
     justify-content: space-between;
-
-    width: 90%;
+    align-items: center;
+    padding: 4rem;
+    width: 100%;
 }
-.achievements img{
-    width: 25%;
-    height: auto;
+.achievement{
+    width: 26rem;
+    height: 18rem;
+    transition: ease-in-out 0.3s;
+}
+.achievement:hover{
+    scale: 1.1;
 }
 
 .hackerrank {

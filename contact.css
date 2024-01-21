@@ -58,15 +58,12 @@
 }
 
 #contactform input:hover {
-    width: 26rem;
-    height: 4rem;
+    scale: 1.2;
     font-size: 1.75rem;
 }
 
 #contactform textarea:hover {
-    width: 26rem;
-    height: 8rem;
-    font-size: 1.75rem;
+    scale: 1.2;
 }
 
 /* Button Style */

@@ -110,10 +110,14 @@
     .achievements{
         flex-direction: column;
         gap: 1rem;
+        padding: 1rem;
     }
-    .achievements img{
-        width: 100%;
+    .achievement {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
     }
+    
     .allcontacts{
         width: 90%;
         flex-direction: column;
@@ -126,8 +130,19 @@
     }
     .othercontacts{
         width: 100%;
+        margin-top: 0%;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
+    #contactform input:hover {
+        scale: 1.1;
+    }
+    #contactform textarea:hover {
+        scale: 1.1;
+    }
+    .footer-text {
+        font-size: 1.2rem;
+        margin: 0; /* Remove default margin */
+      }
 }
