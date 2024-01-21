@@ -1,7 +1,7 @@
 /* responsive.css */
 
 /* Global Styles for Mobile Screens */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 786px) {
 
 
     .profil h1 {
@@ -61,48 +61,29 @@
         display: flex;
         flex-wrap: wrap;
         margin: 0;
-        padding: .8rem;
+        padding: 1.2rem;
         width: 100%;
+        gap: 1rem;
     }
 
     .skill div {
-        margin: 0;
-        margin-bottom: 3rem;
-
         max-width: 45%;
+        height: 16rem;
+    }
+    .skill div img{
+        margin-top: .2rem;
     }
 
-    .skill h1 {
+    .skill div h1 {
         font-size: 1.5rem !important;
+        margin-top: 0rem;
     }
 
-    .hackerrank {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .hackerrank_heading {
-        display: flex;
-        align-items: center;
-        margin-bottom: 2.5rem;
-    }
-
-    .hackerrank_heading img {
-        width: 4rem;
-        height: auto;
-    }
-
-    .hackerrank_heading h1 {
-        font-size: 1.8rem;
-    }
 
     .badges {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: centre;
 
         padding: 1.5rem;
         width: 100%;
@@ -110,5 +91,43 @@
     .project_heading {
         text-align: center;
     }
-
+    .project_elements img{
+        display: none;
+    }
+    .project_elements{
+        width: 170%;
+    }
+    .project{
+        margin-top: 0;
+    }
+    .tech-stack-img img{
+        width: 6rem;
+        height: 6rem;
+    }
+    .tech-stack-img{
+        gap: 2rem;
+    }
+    .achievements{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .achievements img{
+        width: 100%;
+    }
+    .allcontacts{
+        width: 90%;
+        flex-direction: column;
+    }
+    #contactimg{
+        display: none;
+    }
+    .othercontacts img{
+        margin-bottom: 0%;
+    }
+    .othercontacts{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
