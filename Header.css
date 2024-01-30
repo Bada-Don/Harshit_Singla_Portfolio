@@ -58,6 +58,11 @@
     box-shadow: .625rem .625rem 1.875rem #adadd9;
 }
 
+.navbar-toggler-icon{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
 .Heading {
     margin-top: 0rem;
     font-family: 'Raleway';
@@ -91,7 +96,7 @@
 }
 
 #codeimg {
-    width: 23.5rem;
+    width: 32rem;
 }
 
 .violet {
