@@ -4,18 +4,6 @@
 @media only screen and (max-width: 786px) {
 
 
-    .profil h1 {
-        width: 100%;
-        font-size: 1.5rem;
-    }
-
-    .profil h3 {
-        font-size: 1rem;
-    }
-
-    .profil img {
-        width: 4.5rem;
-    }
 
     .home {
         display: flex;

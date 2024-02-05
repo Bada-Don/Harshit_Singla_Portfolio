@@ -1,3 +1,16 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+
+    color: aliceblue;
+}
+
+* {
+    color: whitesmoke;
+}
+
 .nav-item a {
     transition: 0.2s ease;
     font-family: 'Raleway';
@@ -9,17 +22,6 @@
     color: #adadd9 !important;
 }
 
-.universal {
-    width: 100%;
-    margin-left: 0rem;
-    padding: 0rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: transparent;
-
-    color: aliceblue;
-}
 
 .htext {
     font-family: 'Raleway';
@@ -58,7 +60,7 @@
     box-shadow: .625rem .625rem 1.875rem #adadd9;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     font-size: 2rem;
     color: #ffffff;
 }
@@ -121,6 +123,7 @@
     /* Replace with the color you want */
     text-decoration: none;
 }
+
 .learnmore h2 {
     margin-right: 2rem;
     /* or adjust as needed */
