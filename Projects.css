@@ -8,15 +8,21 @@ body {
 
 .achievements{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    padding: 4rem;
+    gap: 2rem;
+    padding: 2%;
     width: 100%;
 }
 .achievement{
-    width: 26rem;
-    height: 18rem;
+    width: 18rem;
+    height: 12rem;
     transition: ease-in-out 0.3s;
+}
+.achievement img{
+    width: 20%;
+    height: auto;
 }
 .achievement:hover{
     scale: 1.1;
