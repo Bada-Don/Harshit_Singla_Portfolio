@@ -1,10 +1,105 @@
 /* responsive.css */
 
 /* Global Styles for Mobile Screens */
+@media(max-width: 986px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 850px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav {
+        border-radius: 0%;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: auto;
+        padding: 0%;
+        position: fixed;
+        left: -300%;
+        width: 100%;
+        min-height: 100% !important;
+        z-index: 5;
+        background: #2c3e50ec;
+        backdrop-filter: blur(8px);
+        text-align: center;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li a{
+        font-size: 1.4rem;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;
+    }
+    nav ul li {
+        display: inline-block;
+        color: white;
+        padding-bottom: 3rem;
+        line-height: 4rem;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+/* @media(max-width: 850px) {
+    .checkbtn{
+        display: block;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav ul{
+        z-index: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        transition: all 1s;
+        display: none;
+        height: 100%;
+        background-color: black;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a{
+        font-size: 2rem;
+    }
+    #check:checked ~ul{
+       display: block;
+    }
+} */
+@media only screen and (max-width: 450px) {
+    .htext {
+        width: 60%;
+    }
+
+    .Heading {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 0.9rem;
+    }
+}
+
 @media only screen and (max-width: 786px) {
-
-
-
     .home {
         display: flex;
         flex-direction: column-reverse;
@@ -58,7 +153,8 @@
         max-width: 45%;
         height: 16rem;
     }
-    .skill div img{
+
+    .skill div img {
         margin-top: .2rem;
     }
 
@@ -76,62 +172,77 @@
         padding: 1.5rem;
         width: 100%;
     }
+
     .project_heading {
         text-align: center;
     }
-    .project_elements img{
+
+    .project_elements img {
         display: none;
     }
-    .project_elements{
+
+    .project_elements {
         width: 90%;
     }
-    .project{
+
+    .project {
         margin-top: 0;
         box-shadow: .625rem .625rem 1.875rem #adadd9;
     }
-    .tech-stack-img img{
+
+    .tech-stack-img img {
         width: 6rem;
         height: 6rem;
     }
-    .tech-stack-img{
+
+    .tech-stack-img {
         gap: 2rem;
     }
-    .achievements{
+
+    .achievements {
         flex-direction: column;
         gap: 1rem;
         padding: 1rem;
     }
+
     .achievement {
         padding-left: 2rem;
         padding-right: 2rem;
         padding-top: 2rem;
     }
-    
-    .allcontacts{
+
+    .allcontacts {
         width: 90%;
         flex-direction: column;
     }
-    #contactimg{
+
+    #contactimg {
         display: none;
     }
-    .othercontacts img{
+
+    .othercontacts img {
         margin-bottom: 0%;
     }
-    .othercontacts{
+
+    .othercontacts {
         width: 100%;
         margin-top: 0%;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
+
     #contactform input:hover {
         scale: 1.1;
     }
+
     #contactform textarea:hover {
         scale: 1.1;
     }
+
     .footer-text {
         font-size: 1.2rem;
-        margin: 0; /* Remove default margin */
-      }
+        margin: 0;
+        /* Remove default margin */
+    }
 }
