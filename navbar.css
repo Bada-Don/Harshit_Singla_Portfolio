@@ -12,6 +12,7 @@ nav{
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     backdrop-filter: blur(8px);
+    box-shadow:0.2rem 0.2rem 0.6rem  rgba(0,0,0,.5) ;
 }
 nav ul{
     width: 55%;
@@ -34,7 +35,6 @@ nav li :hover{
     color: aliceblue;
     background-color: #9292d8;
     box-shadow:0.2rem 0.2rem 0.2rem  rgba(0,0,0,.5) ;
-
 }
 nav ul li{
     transition: ease-in-out 0.3sec;
