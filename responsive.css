@@ -21,9 +21,9 @@
         margin: auto;
         padding: 0%;
         position: fixed;
-        left: -300%;
+        top: -1000%;
         width: 100%;
-        min-height: 100% !important;
+        /* min-height: 100% !important; */
         z-index: 5;
         background: #2c3e50ec;
         backdrop-filter: blur(8px);
@@ -42,10 +42,11 @@
         display: inline-block;
         color: white;
         padding-bottom: 3rem;
-        line-height: 4rem;
+        line-height: 2.5rem;
     }
 
     #check:checked~ul {
+        top: 100%;
         left: 0;
     }
 }

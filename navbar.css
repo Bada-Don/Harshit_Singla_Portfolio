@@ -5,8 +5,9 @@ nav {
     width: 95%;
     background-color: #495057cc;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row;
+    justify-content: space-between; */
+    align-items: center;
     padding: 1rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -16,7 +17,10 @@ nav {
 
 nav ul {
     width: 55%;
-    float: right;
+    /* float: right; */
+    position: fixed;
+    right: 2%;
+    top: 15%;
     list-style: none;
     display: flex;
     flex-direction: row;
